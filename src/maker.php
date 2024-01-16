@@ -30,9 +30,9 @@
         }
         echo '</table>';
     ?>
-    <button onclick="location.href='maker-toroku.php'">メーカーをふやす</button>
+    <button class="button" onclick="location.href='maker-toroku.php'">メーカーをふやす</button>
     <form action="top.php" method="post">
-        <input type="submit" value="トップにもどる" class="button2">
+        <input type="submit" value="トップにもどる" class="button4">
     </form>
 </body>
 </html>

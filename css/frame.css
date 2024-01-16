@@ -96,3 +96,59 @@ body {
     transform: scale(1.1);
     background-color: #ff783ea8;
 }
+
+.button{
+    min-width: 120px; 
+    height: 55px;
+    margin-left: 40px;
+    background-color: rgb(250, 215, 88);
+    font-size: 25px;
+    border-radius:5px;
+    padding: 0 16px; /* テキスト横の余白がキツキツにならないように */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2{
+    min-width: 120px; 
+    height: 70px;
+    margin-left: 40px;
+    background-color: rgb(154, 235, 202);
+    font-size: 25px;
+    border-radius:5px;
+    padding: 0 16px; /* テキスト横の余白がキツキツにならないように */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button3{
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgb(219, 179, 240);
+    font-size: 25px;
+    border-radius:5px;
+}
+
+.button0{
+    width: 270px;
+    height: 70px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgb(233, 237, 150);
+    font-size: 25px;
+    border-radius:5px;
+}
+
+.button4{
+    width: 200px;
+    height: 70px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgb(150, 150, 237);
+    font-size: 25px;
+    border-radius:5px;
+}

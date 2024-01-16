@@ -83,7 +83,7 @@
             }
     ?>
     <form action="top.php" method="post">
-        <input type="submit" value="トップにもどる" class="button2">
+        <input type="submit" value="トップにもどる" class="button4">
     </form>
     </div>
     </div>

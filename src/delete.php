@@ -32,14 +32,14 @@
             echo '<p>','説明：',$row['outline'],'</p>';
             echo '<form action="delete2.php" method="post">';
             echo '<input type="hidden" name="id" value="',$row['id'],'">';
-            echo '<button type="submit" class="button">さくじょ</button>';
+            echo '<button type="submit" class="button3">さくじょ</button>';
             echo '</form>';
             echo '</div>';
             echo '</div>';
         }
     ?>
     <form action="top.php" method="post">
-        <input type="submit" value="トップにもどる" class="button2">
+        <input type="submit" value="トップにもどる" class="button4">
     </form>
 </body>
 </html>

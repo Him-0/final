@@ -46,7 +46,7 @@
         <div class="toroku">
             メーカーID：<input type="text"  class="text" name="id" style="width: 300px; height=30px"><br><br>
             メーカーの名前：<input type="text"  class="text" name="name" style="width: 300px; height=30px"><br><br>
-            <input type="submit" name="insert" value="登録" class="button">
+            <input type="submit" name="insert" value="とうろく" class="button">
         </div>
         </form>
     <div class="error">

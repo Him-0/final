@@ -60,17 +60,17 @@
                 foreach ($sql as $row) {
                     echo '<tr>';
                     echo '<form action="update3.php" method="post">';
-                    echo '<td>';
+                    echo '<td style="text-align:center;">';
                     echo '<input type="hidden" name="id" value="', $row['id'], '">';
                     echo $row['id'];
                     echo '</td> ';
-                    echo '<td>';
+                    echo '<td style="text-align:center;">';
                     echo '<input type="text" name="name" value="', $row['name'], '">';
                     echo '</td> ';
-                    echo '<td>';
+                    echo '<td style="text-align:center;">';
                     echo '<input type="text" name="png" value="', $row['png'], '">';
                     echo '</td> ';
-                    echo '<td>';
+                    echo '<td style="text-align:center;">';
                     echo '<input type="text" name="mp3" value="', $row['mp3'], '">';
                     echo '</td> ';
                     $sql_maker='select * from Maker';
@@ -82,17 +82,17 @@
                             $data .="'>".$maker_data_val['id']."</option>";
                         }
                     }
-                    echo '<td>';
+                    echo '<td style="text-align:center;">';
                     echo '<select name="maker_id">';
                     echo $data;
                     echo '</select>';
-                    echo '</td> ';
+                    echo '</td style="text-align:center;"> ';
                     echo '<td>';
                     echo '<textarea name="outline">';
                     echo $row['outline'];
                     echo '</textarea>';
                     echo '</td> ';
-                    echo '<td><input type="submit" value="更新" class="button"></td>';
+                    echo '<td style="text-align:center;"><input type="submit" value="こうしん" class="button2"></td>';
                     echo '</form>';
                     echo '</tr>';
                     echo "\n";
@@ -100,7 +100,7 @@
                 ?>
             </table>
             <form action="update.php" method="post">
-                <input type="submit" value="選択画面へ戻る" class="button2">
+                <input type="submit" value="せんたく画面にもどる" class="button0">
             </form>
             <div class="error">
             <?php
