@@ -1,0 +1,98 @@
+.title{
+    text-align: center;
+}
+
+#maker{
+    margin: auto;
+}
+
+.frame{
+    display: flex;
+}
+
+.detail_1{
+    width: auto;
+    display: flex;
+    padding-left: 20px;
+}
+
+.detail{
+    width: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url("../image/music.png"); /* 画像 */
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;   /* 縦横中央 */
+}
+
+#column ul {
+	width: calc(100 + 20px);
+	margin: 0 -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#column li {
+	padding: 10px 10px 20px 30px;
+    list-style: none;
+    width: 250px;
+    overflow: hidden;
+    float:left;
+    height:400px;
+
+}
+
+#column li a,
+#column li a:visited {
+	text-decoration: none;
+	color: #111;
+}
+
+#column li p {
+	font-size: 90%;
+	margin-bottom: 3px;
+}
+
+#column li span {
+	font-size: 90%;
+	display: block;
+}
+
+.column04 li {
+	width: calc(25% - 20px);
+}
+
+.toroku{
+    text-align:center;
+}
+
+.buttons{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.bigger {
+    border: 2px solid #000;
+    background-color: rgba(254, 254, 247, 0.007);
+    color: #000;
+    transition: 0.5s;
+}
+
+.bigger:hover {
+    transform: scale(1.1);
+    background-color: #ff783ea8;
+}
