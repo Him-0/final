@@ -75,7 +75,7 @@
                     echo '</td> ';
                     $sql_maker='select * from Maker';
                     $data="";
-
+                    
                     if($stmt=$pdo->query($sql_maker)){
                         foreach($stmt as $maker_data_val){
                             $data .="<option value='".$maker_data_val['id'];
