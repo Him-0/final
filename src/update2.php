@@ -19,7 +19,7 @@
         $mp3 = $_POST['mp3'];
         $maker_id = $_POST['maker_id'];
         $outline = $_POST['outline'];
-       
+        $id=$_POST['id'];
         $sql = $pdo->prepare('update Instrument set name=?,png=?,mp3=?,maker_id=?,outline=? where id=?');
             if(empty($name)){
                 $error_message = '楽器名を入力してください';
@@ -33,7 +33,7 @@
                 $error_message = '楽器の説明を入力してください';
             }else{
                 $sql->execute([$name,$png,$mp3,$maker_id,$outline]);
-                $login_success_url = "update3.php";
+                $login_success_url = "update3.php?".$id;
                 header("Location: {$login_success_url}");
                 exit;
             }
